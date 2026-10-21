@@ -793,6 +793,126 @@
       "notes": null,
       "created_at": "2026-10-21T16:44:21.350Z",
       "updated_at": "2026-10-21T16:44:21.350Z"
+    },
+    {
+      "id": "app-1792603022723-e088",
+      "reference": "SRM-20370105-B62A94",
+      "customer_id": null,
+      "customer_name": "Cash Customer",
+      "customer_phone": "9840112233",
+      "customer_email": null,
+      "service_id": "srv-001",
+      "service_name": "Men's Haircut",
+      "price_snapshot": 150,
+      "duration_minutes": 30,
+      "employee_id": "emp-001",
+      "employee_name": "Sriram",
+      "appointment_date": "2037-01-05",
+      "start_time": "07:00",
+      "end_time": "07:30",
+      "status": "confirmed",
+      "payment_preference": "cash",
+      "payment_status": "pending",
+      "upi_transaction_id": null,
+      "notes": null,
+      "created_at": "2026-10-21T17:17:02.723Z",
+      "updated_at": "2026-10-21T17:17:02.723Z"
+    },
+    {
+      "id": "app-1792603022725-f7ce",
+      "reference": "SRM-20370105-2B8A5E",
+      "customer_id": null,
+      "customer_name": "UPI Customer",
+      "customer_phone": "9840998877",
+      "customer_email": null,
+      "service_id": "srv-001",
+      "service_name": "Men's Haircut",
+      "price_snapshot": 150,
+      "duration_minutes": 30,
+      "employee_id": "emp-001",
+      "employee_name": "Sriram",
+      "appointment_date": "2037-01-05",
+      "start_time": "08:00",
+      "end_time": "08:30",
+      "status": "confirmed",
+      "payment_preference": "upi",
+      "payment_status": "pending",
+      "upi_transaction_id": null,
+      "notes": null,
+      "created_at": "2026-10-21T17:17:02.725Z",
+      "updated_at": "2026-10-21T17:17:02.725Z"
+    },
+    {
+      "id": "app-1792603022727-1a08",
+      "reference": "SRM-20370105-9AA5D5",
+      "customer_id": null,
+      "customer_name": "Ramesh UTR Test",
+      "customer_phone": "9486123456",
+      "customer_email": null,
+      "service_id": "srv-002",
+      "service_name": "Children's Haircut",
+      "price_snapshot": 100,
+      "duration_minutes": 20,
+      "employee_id": "emp-001",
+      "employee_name": "Sriram",
+      "appointment_date": "2037-01-05",
+      "start_time": "09:00",
+      "end_time": "09:20",
+      "status": "confirmed",
+      "payment_preference": "upi",
+      "payment_status": "pending",
+      "upi_transaction_id": "429182749102",
+      "notes": null,
+      "created_at": "2026-10-21T17:17:02.727Z",
+      "updated_at": "2026-10-21T17:17:02.727Z"
+    },
+    {
+      "id": "app-1792603022730-447c",
+      "reference": "SRM-20370105-D13CC3",
+      "customer_id": null,
+      "customer_name": "Verified Customer",
+      "customer_phone": "9486999999",
+      "customer_email": null,
+      "service_id": "srv-003",
+      "service_name": "Beard Trimming",
+      "price_snapshot": 70,
+      "duration_minutes": 15,
+      "employee_id": "emp-001",
+      "employee_name": "Sriram",
+      "appointment_date": "2037-01-05",
+      "start_time": "11:00",
+      "end_time": "11:15",
+      "status": "confirmed",
+      "payment_preference": "upi",
+      "payment_status": "verified",
+      "upi_transaction_id": "883920194821",
+      "notes": null,
+      "created_at": "2026-10-21T17:17:02.730Z",
+      "updated_at": "2026-10-21T17:17:02.730Z"
+    },
+    {
+      "id": "app-1792603022735-d535",
+      "reference": "SRM-20370105-BE7F3A",
+      "customer_id": null,
+      "customer_name": "Fake UTR Customer",
+      "customer_phone": "9486000000",
+      "customer_email": null,
+      "service_id": "srv-004",
+      "service_name": "Shaving",
+      "price_snapshot": 80,
+      "duration_minutes": 15,
+      "employee_id": "emp-001",
+      "employee_name": "Sriram",
+      "appointment_date": "2037-01-05",
+      "start_time": "12:00",
+      "end_time": "12:15",
+      "status": "confirmed",
+      "payment_preference": "upi",
+      "payment_status": "rejected",
+      "upi_transaction_id": "000000000000",
+      "notes": null,
+      "created_at": "2026-10-21T17:17:02.735Z",
+      "updated_at": "2026-10-21T17:17:02.735Z"
     }
   ],
   "walk_in_tokens": [
@@ -890,6 +1010,20 @@
       "notes": "Auto-recorded upon UPI verification (UTR: 883920194821)",
       "created_at": "2026-10-21T16:44:21.346Z",
       "updated_at": "2026-10-21T16:44:21.346Z"
+    },
+    {
+      "id": "sale-1792603022731-DB91",
+      "sale_number": "INV-20261021-DB91",
+      "appointment_id": "app-1792603022730-447c",
+      "walk_in_token_id": null,
+      "service_id": "srv-003",
+      "service_name": "Beard Trimming",
+      "amount": 70,
+      "payment_method": "upi",
+      "recorded_by": "admin-001",
+      "notes": "Auto-recorded upon UPI verification (UTR: 883920194821)",
+      "created_at": "2026-10-21T17:17:02.731Z",
+      "updated_at": "2026-10-21T17:17:02.731Z"
     }
   ],
   "expenses": [],
@@ -1100,6 +1234,66 @@
       "notes": "No credit found in bank",
       "created_at": "2026-10-21T16:44:21.350Z",
       "verified_at": "2026-10-21T16:44:21.351Z",
+      "verified_by": "admin-001"
+    },
+    {
+      "id": "pay-1792603022725-9007",
+      "booking_reference": "SRM-20370105-2B8A5E",
+      "appointment_id": "app-1792603022725-f7ce",
+      "amount": 150,
+      "payment_method": "upi",
+      "upi_id": "kishoreramr2004@oksbi",
+      "upi_transaction_id": null,
+      "status": "pending",
+      "customer_name": "UPI Customer",
+      "customer_phone": "9840998877",
+      "notes": "Customer opted for UPI payment during booking",
+      "created_at": "2026-10-21T17:17:02.725Z"
+    },
+    {
+      "id": "pay-1792603022727-409e",
+      "booking_reference": "SRM-20370105-9AA5D5",
+      "appointment_id": "app-1792603022727-1a08",
+      "amount": 100,
+      "payment_method": "upi",
+      "upi_id": "kishoreramr2004@oksbi",
+      "upi_transaction_id": "429182749102",
+      "status": "pending",
+      "customer_name": "Ramesh UTR Test",
+      "customer_phone": "9486123456",
+      "notes": "Submitted via Google Pay",
+      "created_at": "2026-10-21T17:17:02.727Z"
+    },
+    {
+      "id": "pay-1792603022730-4fc0",
+      "booking_reference": "SRM-20370105-D13CC3",
+      "appointment_id": "app-1792603022730-447c",
+      "amount": 70,
+      "payment_method": "upi",
+      "upi_id": "kishoreramr2004@oksbi",
+      "upi_transaction_id": "883920194821",
+      "status": "verified",
+      "customer_name": "Verified Customer",
+      "customer_phone": "9486999999",
+      "notes": "Bank credit confirmed",
+      "created_at": "2026-10-21T17:17:02.730Z",
+      "verified_at": "2026-10-21T17:17:02.731Z",
+      "verified_by": "admin-001"
+    },
+    {
+      "id": "pay-1792603022735-e098",
+      "booking_reference": "SRM-20370105-BE7F3A",
+      "appointment_id": "app-1792603022735-d535",
+      "amount": 80,
+      "payment_method": "upi",
+      "upi_id": "kishoreramr2004@oksbi",
+      "upi_transaction_id": "000000000000",
+      "status": "rejected",
+      "customer_name": "Fake UTR Customer",
+      "customer_phone": "9486000000",
+      "notes": "No credit found in bank",
+      "created_at": "2026-10-21T17:17:02.735Z",
+      "verified_at": "2026-10-21T17:17:02.736Z",
       "verified_by": "admin-001"
     }
   ],
@@ -1808,6 +2002,125 @@
       },
       "actor_id": "admin-001",
       "created_at": "2026-10-21T16:44:21.351Z"
+    },
+    {
+      "id": "log-1792603022723-891",
+      "action": "create",
+      "entity_type": "appointment",
+      "entity_id": "app-1792603022723-e088",
+      "details": {
+        "reference": "SRM-20370105-B62A94",
+        "customer": "Cash Customer",
+        "service": "Men's Haircut",
+        "payment_preference": "cash"
+      },
+      "actor_id": null,
+      "created_at": "2026-10-21T17:17:02.723Z"
+    },
+    {
+      "id": "log-1792603022725-963",
+      "action": "create",
+      "entity_type": "appointment",
+      "entity_id": "app-1792603022725-f7ce",
+      "details": {
+        "reference": "SRM-20370105-2B8A5E",
+        "customer": "UPI Customer",
+        "service": "Men's Haircut",
+        "payment_preference": "upi"
+      },
+      "actor_id": null,
+      "created_at": "2026-10-21T17:17:02.725Z"
+    },
+    {
+      "id": "log-1792603022727-399",
+      "action": "create",
+      "entity_type": "appointment",
+      "entity_id": "app-1792603022727-1a08",
+      "details": {
+        "reference": "SRM-20370105-9AA5D5",
+        "customer": "Ramesh UTR Test",
+        "service": "Children's Haircut",
+        "payment_preference": "upi"
+      },
+      "actor_id": null,
+      "created_at": "2026-10-21T17:17:02.727Z"
+    },
+    {
+      "id": "log-1792603022728-871",
+      "action": "payment_attempt",
+      "entity_type": "payment",
+      "entity_id": "pay-1792603022727-409e",
+      "details": {
+        "reference": "SRM-20370105-9AA5D5",
+        "utr": "429182749102"
+      },
+      "actor_id": null,
+      "created_at": "2026-10-21T17:17:02.728Z"
+    },
+    {
+      "id": "log-1792603022730-681",
+      "action": "create",
+      "entity_type": "appointment",
+      "entity_id": "app-1792603022730-447c",
+      "details": {
+        "reference": "SRM-20370105-D13CC3",
+        "customer": "Verified Customer",
+        "service": "Beard Trimming",
+        "payment_preference": "upi"
+      },
+      "actor_id": null,
+      "created_at": "2026-10-21T17:17:02.730Z"
+    },
+    {
+      "id": "log-1792603022731-162",
+      "action": "create",
+      "entity_type": "sale",
+      "entity_id": "sale-1792603022731-DB91",
+      "details": {
+        "sale_number": "INV-20261021-DB91",
+        "amount": 70,
+        "method": "upi"
+      },
+      "actor_id": "admin-001",
+      "created_at": "2026-10-21T17:17:02.731Z"
+    },
+    {
+      "id": "log-1792603022732-965",
+      "action": "verify_payment",
+      "entity_type": "payment",
+      "entity_id": "pay-1792603022730-4fc0",
+      "details": {
+        "status": "verified",
+        "booking": "SRM-20370105-D13CC3"
+      },
+      "actor_id": "admin-001",
+      "created_at": "2026-10-21T17:17:02.733Z"
+    },
+    {
+      "id": "log-1792603022735-395",
+      "action": "create",
+      "entity_type": "appointment",
+      "entity_id": "app-1792603022735-d535",
+      "details": {
+        "reference": "SRM-20370105-BE7F3A",
+        "customer": "Fake UTR Customer",
+        "service": "Shaving",
+        "payment_preference": "upi"
+      },
+      "actor_id": null,
+      "created_at": "2026-10-21T17:17:02.735Z"
+    },
+    {
+      "id": "log-1792603022736-839",
+      "action": "verify_payment",
+      "entity_type": "payment",
+      "entity_id": "pay-1792603022735-e098",
+      "details": {
+        "status": "rejected",
+        "booking": "SRM-20370105-BE7F3A"
+      },
+      "actor_id": "admin-001",
+      "created_at": "2026-10-21T17:17:02.736Z"
     }
   ]
 }
